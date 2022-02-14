@@ -1,0 +1,27 @@
+   .content__item:nth-child(1) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2018/03/01/16/38/nature-3191092_960_720.jpg);
+        }
+        .content__item:nth-child(2) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2017/09/10/09/59/like-2734960_960_720.jpg);
+        }
+        .content__item:nth-child(3) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2019/09/29/22/06/light-bulb-4514505_960_720.jpg);
+        }
+        .content__item:nth-child(4) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2017/05/19/10/12/hand-2326058_960_720.jpg);
+        }
+        .content__item:nth-child(5) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2018/01/24/17/33/light-bulb-3104355_960_720.jpg);
+        }
+        .content__item:nth-child(6) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2018/12/28/23/54/lucky-pig-3900646_960_720.jpg);
+        }
+        .content__item:nth-child(7) .content__item__img {
+            background-image: url(https://cdn.pixabay.com/photo/2018/02/27/06/30/skyscrapers-3184798_960_720.jpg);
+        }
+        .content__item:nth-child(8) .content__item__img {
+            background-image: url(https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg8.jpg);
+        }
+        .content__item:nth-child(9) .content__item__img {
+            background-image: url(https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg9.jpg);
+        }
