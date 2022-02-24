@@ -1,0 +1,206 @@
+패럴렉스 스크롤링은 
+일반적으로 웹 페이지 상의 요소들이 스크롤에 각기 다르게 반응하는 것(또는 그렇게 작동하도록 하는 기법)을 의미합니다.
+
+ 
+
+ 
+
+패럴렉스 스크롤링은
+흔히 스토리텔링에 활용하기 좋다고 이야기합니다.
+요소들이 각기 나타나고 고정되고 사라지는 움직임은, 콘텐츠화된 웹 페이지의 어떤 위치에서 어떤 요소에 사용자의 시선을 집중시킬지 의도를 반영하기 적합하기 때문이 아닌가 합니다.
+
+ 
+
+그런 만큼 장식적인 효과를 넘어서, UX 디자인의 관점에서 패럴렉스 스크롤링이 어떻게 적용되고 표현될 수 있는지 참고할 만한 웹페이지를 모아보았습니다.
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. iPad Pro
+애플의 신제품 소개 페이지는 매번 스크롤 효과의 향연인 걸로 기억합니다.
+
+ 
+
+
+ 
+
+https://www.apple.com/ipad-pro/
+
+ 
+iPad Pro
+
+The new iPad Pro has the M1 chip, 12.9-inch Liquid Retina XDR display, 11-inch Liquid Retina display, 5G support, and new camera with Center Stage.
+
+www.apple.com
+ 
+
+ 
+
+ 
+
+2. moremilk
+가로스크롤과 transform: matrix3d 속성을 함께 활용해서 역동성을 더한 점이 좋았습니다.
+
+ 
+
+
+ 
+
+https://moremilk.ru/
+
+ 
+More!Milk натуральное растительное молоко
+
+More!Milk – Российский производитель растительные продуктов, которые подходят всем и тем кто по личным причинам не дружит с коровьим молоком, и
+
+moremilk.ru
+ 
+
+ 
+
+ 
+
+3. cann
+탄산의 느낌 + transform: translate3d 속성으로 텍스트의 굵기가 변하는 모습이 좋았습니다.
+
+ 
+
+
+ 
+
+https://drinkcann.com/
+
+ 
+Cann
+
+High there, we're Cann. Light THC & CBD for a blended buzz.
+
+drinkcann.com
+ 
+
+ 
+
+ 
+
+4. collagecrafting
+화면 스크롤에 따라서 각 글자가 서로 다른 transform: translate를 갖습니다.
+
+ 
+
+
+ 
+
+https://collagecrafting.com/en
+
+ 
+Boutique de design de produits | Collage Crafting
+
+Collage est une boutique de création de produits contemporaine qui crée des objets originaux et uniques, en expérimentant différents matériaux, formes, textures et couleurs.
+
+collagecrafting.com
+ 
+
+ 
+
+ 
+
+5. anemoimarine
+이미지는 화면 내에서 변하고, 텍스트가 흘러가는 구성입니다.
+
+ 
+
+
+ 
+
+https://anemoimarine.com/
+
+ 
+Anemoi Marine - Rotor Sails for a sustainable future
+
+Global leaders in wind assisted ship propulsion. Installing Flettner Rotor Sails can reduce EEDI scores and help achieve IMO 2030 and 2050 decarbonisation targets.
+
+anemoimarine.com
+ 
+
+ 
+
+ 
+
+6. unisfootwear
+쓰레기 이미지가 모델 이미지 뒤로 숨는 구성으로 "쓰레기를 배출하지 않는다"는 메시지를 강조하는 것이 좋았습니다.
+
+ 
+
+
+ 
+
+https://www.unisfootwear.com/pages/sustainability
+
+ 
+Sustainability | Eco Friendly Sneakers | Zero Waste
+
+We turn trash into prized possessions that you can wear and then recycle. Our sneakers help the Earth heal and put you in control of what you stand on, stand in, and stand for. Made from recycled ocean plastic. Assembled in the USA.
+
+www.unisfootwear.com
+ 
+
+ 
+
+ 
+
+7. davegamache 개인 포트폴리오
+개인 포트폴리오 중 크기, 투명도, 위치를 동시에 변경하는 예제입니다.
+
+ 
+
+
+ 
+
+http://davegamache.com/parallax/
+
+ 
+Dave Gamache
+
+Parallax Demo An experiment by Dave Gamache Here's an example of 16 elements scaling, fading and moving at once. Or better yet, a realistic example of showcasing some design work. Really, anything is possible … Learn how to make your parallax site smooth
+
+davegamache.com
+ 
+
+ 
+
+ 
+
+8. weglot
+클릭으로 (언어의) 벽을 부수고 이어지는 내용을 볼 수 있는 구성이 좋았습니다.
+
+ 
+
+
+ 
+
+https://www.translate-wf.com/
+
+ 
+Weglot for Webflow
+
+Weglot allows you to make your Webflow website multilingual in minutes. Translate your Webflow site without coding. Promo site created by Finsweet.
+
+www.translate-wf.com
+ 
+
+ 
+
+ 
+
+ 
+
+앞서 작성한 패럴렉스 스크롤링 레퍼런스에서 소개한 도메인이 일부 만료되어, 새 글을 작성하게 되었습니다.
+
+ 
+
+다양한 주제의 웹페이지에서 효과를 서로 다르게 사용하는 예제를 모아보고자 했습니다.
