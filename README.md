@@ -16,7 +16,7 @@ https://www.notion.so/Javascript-1d7f4ea4ece84679acb669d44c35dbca
 https://www.notion.so/REACT-78bf0022d1d54ec28dfb8dd2e66f224d
 
 6.- Html/Css 정리
-
+https://www.notion.so/Html-Css-5ad72805b9894a8ea1e6c3fd5852614b
 
 7.- T STORY 블로그
 https://amarans.tistory.com/
