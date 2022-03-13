@@ -1,0 +1,46 @@
+git노드 js 실행 순서 까먹지 말기
+
+cd Desktop 
+cd Node.js
+node main.js
+
+vscode 깃 
+
+git status
+git add *
+git commit -m "message"
+git push
+
+처음 연결
+git clone 주소
+처음할때 연결된지 확인하는방법
+git remote -v
+
+pm2 실행방법
+
+pm2 start main.js 실행됨
+q를 누르면 나갈수있고
+실행중인 리스트 pm2 list
+pm2 stop main
+main.js 가 꺼짐
+
+제일중요한것
+pm2 start main.js --watch
+컨트롤 c 누르고 다시 안해도되고 리로드만하면 바로반영됨
+그대신 에러나 이런건 못봄 이럴떄는
+pm2 log
+ 라고 입력하면 업뎃하면 업뎃한걸
+에러가 있으면 에러 문제점을 화면에 보여줌
+
+
+npm 사용방법! 
+
+npm init 후 all 엔터
+npm install -S sanitize-html
+하면 깔림.
+보안상 <script> ~ <h1>등 사용 못하지만 풀어주려면
+밑에 코드를 이용하여 풀어줄수있음 ㅇㅇ!
+var sanitizedDescription = sanitizeHtml(description,{
+            allowedTags:['h1']
+          });
+

@@ -1,0 +1,3 @@
+node ip 주소 바꾸는법
+
+mongodb 접속후 Network Access - > EDIT - > includes your current IP address 바꾸기
