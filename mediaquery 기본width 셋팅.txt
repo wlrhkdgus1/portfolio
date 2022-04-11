@@ -1,0 +1,32 @@
+/* mediaquery */    /*오차가 있을수 있어 20px정도 더줌*/
+/* 화면 너비 0 ~ 1220px */
+@media (max-width: 1220px) { 
+}
+
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px) { 
+
+}
+
+/* 화면 너비 0 ~ 960px */ /*타블렛*/
+@media (max-width: 960px) { 
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px) { 
+}
+
+/* 화면 너비 0 ~ 600px */ /*모바일*/
+@media (max-width: 600px) { 
+}
+
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px) { 
+
+}
+
+/* 화면 너비 0 ~ 320px */
+@media (max-width: 320px) { 
+    .nav > div li {width: 100%;}
+    .nav > div:last-child li {width: 100%;}
+}
