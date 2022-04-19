@@ -338,6 +338,17 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
 .square a:nth-child(9):hover img {filter: sepia(120%);}
 .square a:nth-child(10):hover img {filter: sepia(120%) hue-rotate(120deg);}
 
+/* 비디오 */
+.video {position: relative; width: 100%; padding-bottom: 56.25%;}
+.video iframe {position: absolute; width: 100%; height: 100%;}
+
+/* 푸터*/
+.footer {text-align: center; padding: 30px 50px;} 
+.footer li {position: relative; display: inline; padding: 0 7px 0 10px; white-space: nowrap;}
+.footer li:before {content: ''; width: 1px; height: 12px; background-color: #dbdbdb; position: absolute; left: 0; top: 2px;}
+.footer li:first-child:before {width: 0;}
+.footer address {padding-top: 15px;}
+
 /* mediaquery */    /*오차가 있을수 있어 20px정도 더줌*/
 /* 화면 너비 0 ~ 1220px */
 @media (max-width: 1220px) { 
@@ -359,7 +370,7 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
 
 /* 화면 너비 0 ~ 960px */ /*타블렛*/
 @media (max-width: 960px) {  /*포지션 absolute를 기본으로 바꾸려면 static*/
-    #cont_right {position: static; width: 100%; border-top: 1px solid #dbdbdb;}
+    #cont_right {position: static; width: 100%;}
     #cont_center {margin-right: 0; border-right: 0;}
 
     .nav > div {float: none; width: 100%;}
@@ -367,6 +378,12 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
     .nav > div li {width: 33.33333%;}
     .nav > div:last-child li {width: 33.33333%;}
     .nav > div ol {margin-bottom: 10px;}
+
+    #cont_right {overflow: hidden;}
+    #cont_right .column {float: left; width: 33.3333%; box-sizing: border-box;}
+    #cont_right .column.col7 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+    #cont_right .column.col8 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+
 }
 
 /* 화면 너비 0 ~ 768px */
@@ -397,6 +414,10 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
     .column.col2 {background: #fff;}
     .column.col4 {border-top: 1px solid #dbdbdb;}
 
+    #cont_right .column {width:50%}
+    #cont_right .column.col8 {border-right: 0;}
+    #cont_right .column.col9 {display: none;}
+
     .slider figcaption {padding: 10px;}
     .slider figcaption em {font-size: 18px;}
     .slider figcaption span {font-size: 14px;}
@@ -415,7 +436,11 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
     .nav > div li {width: 100%;}
     .nav > div:last-child li {width: 100%;}
 
+    #cont_right .column {width:100%}
+    #cont_right .column.col7 {border-right: 0; border-bottom: 1px solid #dbdbdb;}
+
     .square a {width: 100%; margin-right: 0; margin-left: 0;}
+    
 }
 
 
