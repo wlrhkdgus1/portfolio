@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <div class="js-clock">
+        <h1>00:00</h1>
+    </div> 
+    <form class="js-form form">
+        <input type="text" placeholder="What is your name?"/>
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm toDoForm">
+        <input class="todo" type="text" placeholder="Write a to do"/>
+    </form>
+    <form class="js-toDoForm toDoForm">
+    <ul class="js-toDoList">
+    </ul>
+    </form>
+    <input class="play1" type="button" onClick="audio.play();" value="JAZZ"/>
+    <input class="play2" type="button" onClick="audio1.play();" value="ROMANTIC"/>
+    <input class="play3" type="button" onClick="audio2.play();" value="LOVE"/>
+    <input class="stop1" type="button" onClick="audio.pause();" value="PAUSE"/>
+    <input class="stop2" type="button" onClick="audio1.pause();" value="PAUSE"/>
+    <input class="stop3" type="button" onClick="audio2.pause();" value="PAUSE"/>
+   <spanc class=js-weather></spanc>
+   <script src="clock.js"></script>
+   <script src="gretting.js"></script>
+   <script src="todo.js"></script>
+   <script src="bg.js"></script>
+   <script src="weather.js"></script>
+   <script type="text/javascript">
+        var audio = new Audio();
+    audio.src = "./lucky.mp3";
+    </script>
+    <script type="text/javascript">
+        var audio1 = new Audio();
+    audio1.src = "./lucky1.mp3";   
+    </script>
+    <script type="text/javascript">
+        var audio2 = new Audio();
+    audio2.src = "./lucky2.mp3";     
+    </script>
+
+</body>
+</html>
