@@ -1,6 +1,6 @@
 # portfolio 
 1.- 반응형 웹 사이트 
-    amarans.dothome.co.kr/html5/index.html
+    http://amarans.dothome.co.kr/webs/index.html
     
 3.- 노션 site 
     https://www.notion.so/2ea3c2087b384ce5ab99a8fc1300d322
