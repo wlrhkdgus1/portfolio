@@ -24,26 +24,21 @@ body{background: url(../img/bgc0.jpg) repeat-x center top;}
      transition: color 0.5s ease; font-family: 'Abel', sans-serif;} /*transition: color 0.3 ease 마우스 오버했을때 0.3초정도 걸리면서 색이바뀜.*/
 .header .header_menu a:hover {color: #ccc;}
 
-.header .header_tit {text-align: center; text-transform: uppercase; margin-top: 55px; font-family: 'Abel', sans-serif;} 
+.header .header_tit {text-align: center;  margin-top: 10px; font-family: 'Abel', sans-serif;} 
 
-.header .header_tit h1 {
-    font-size: 30px; color: #FFF0F5;
-    background: #51b0dc;
-    display: inline-block;
-    padding: 5px 30px 5px 30px;
-    letter-spacing: 2px; /*문자사이 간격*/
-    font-weight: 900;    
-    transition: box-shadow 0.3s ease-in-out;
-}
+ .header .header_tit h1 {
+     font-size: 50px;
+      color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgb(187, 255, 0), 0 0 80px rgb(200, 255, 0), 0 0 90px rgb(217, 255, 0), 0 0 100px rgb(255, 208, 0), 0 0 150px rgb(217, 255, 0);
+} 
 
-.header .header_tit h1:hover{
-    box-shadow:
-        inset -9em 0 0 0 #257fac,
-        inset 9em 0 0 0 #257fac;
-}
+
 .header .header_tit a {
-    font-size: 16px; color: #FFDCFF;
-    background: #4a9abf;
+    font-size: 25px; 
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgb(187, 255, 0), 0 0 80px rgb(200, 255, 0), 0 0 90px rgb(217, 255, 0), 0 0 100px rgb(255, 208, 0), 0 0 150px rgb(217, 255, 0);
+
+    background: #f0dc55;
     display: inline-block;
     padding: 10px 20px 10px 20px;
     margin-top: -7px;
@@ -51,17 +46,17 @@ body{background: url(../img/bgc0.jpg) repeat-x center top;}
 }
 .header .header_tit a:hover {
     box-shadow: 
-        0 0 0 5px rgba(75, 154, 191, 0.9) inset,
-        0 0 0 100px rgba(0,0,0,0.1) inset;
+        0 0 0 5px rgba(138, 153, 73, 0.9) inset,
+        0 0 0 100px rgba(193, 207, 193, 0.945) inset;
 }
 
 .header .header_icon {text-align: center; margin-top: 40px; padding-bottom: 45px;}
 .header .header_icon li {display: inline; margin: 0px 2px;}
 .header .header_icon li a {
     position: relative;
-    background-color: #3192bf;
+    background-color: #fdf4ca;
     border-radius: 50%;
-    width: 60px; height: 60px; color: #FFDCFF;
+    width: 60px; height: 60px; color: #3192bf;
     display: inline-block;
     font-size: 35px;
     line-height: 60px;
@@ -71,9 +66,9 @@ body{background: url(../img/bgc0.jpg) repeat-x center top;}
     position: absolute;
     left: 50%; top: -40px;
     transform: translate(-50%);
-    font-size: 12px;
+    font-size: 17px;
     line-height: 1.6;
-    background: #3192bf;
+    background: #c3c485;
     padding: 3px 9px;
     border-radius: 6px 0;
     opacity: 0;
@@ -84,7 +79,7 @@ body{background: url(../img/bgc0.jpg) repeat-x center top;}
     position: absolute;
     left: 50%; bottom: -5px;
     margin-left: -5px;
-    border-top: 5px solid #3192bf;
+    border-top: 5px solid #fdfdfd;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
