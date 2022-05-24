@@ -1,0 +1,139 @@
+* { box-sizing: border-box;}
+
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  background-color: #f9fafb;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  width: 400px;
+}
+
+.form{
+  padding: 30px 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #3021b7;
+}
+
+h4{
+  padding-left: 5px;
+}
+
+input {
+  outline: none;
+  box-sizing: border-box;
+  text-indent: 7px;
+}
+
+input[id="checkboxAgree"] {
+  position: relative;
+  top: 2px;
+}
+
+input:focus {
+  border: 1px solid #777;
+}
+
+.input-box{
+  display: flex;
+  margin: 12px 0 0 5px;
+  border: 1px solid #CCCCCC;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #7365FC;
+}
+
+.input-icon {
+  background: #FAFAFA;
+  color: #CCCCCC;
+  text-align: center;
+  border: none;
+  border-right: 1px solid #CCCCCC;
+  font-size: 16px;
+  padding: 10px;
+}
+
+input::placeholder{
+  padding-left: 10px;
+}
+
+.input-border {
+  border: none;
+}
+
+.guide-box{
+  font-weight: thick;
+  padding-left: 16px;
+  padding-top: 4px;
+}
+
+.guide-message{
+  color: #8d8b8b;
+  font-size: 10px;
+}  
+
+.guide-message i {
+  padding-right: 6px;
+}
+
+.guide-text {
+  color: #7365FC;
+  margin-left: -3px;
+}
+
+.fa-solid {
+  color: #8d8b8b;
+}
+
+.line-1 {
+  height: 1px;
+  background: #f4f2f2;
+  margin: 30px 20px;
+}
+
+#checkboxAgree {
+  padding-top: 10px;
+  margin: 5px 5px 0px 0px;
+}
+
+.newBtn {
+  cursor: pointer;
+  display: block;
+  margin: 30px 0 30px 0;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+}
+
+button:disabled,
+button[disabled]{
+  background-color: rgb(164, 164, 201);
+  border-color: rgb(164, 164, 201);
+}
+
+.hide {
+  display: none;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}

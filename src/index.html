@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 유효성 검사</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="form" class="form">
+        <h1>회원가입</h1>
+        <h4>회원정보를 입력해주세요.</h4>
+        <!-- username -->
+        <div id="username-box">
+          <div class="input-box">
+            <span class="input-icon"><i class="fa-regular fa-envelope"></i></span>
+            <input type="text" id="username" class="input-border" placeholder="아이디">
+          </div>
+          
+          <div class="guide-box">
+            <div class="guide-text">(필수) 아이디를 입력하세요.</div>
+            <div class="guide-message"><i class="fa-solid fa-x icon1"></i>영문/숫자 조합 (4~20자)</div>
+            <div class="success-message green hide">사용할 수 있는 아이디입니다.</div>
+            <div class="failure-message red hide">아이디를 다시 생성해주세요.</div>
+          </div>
+        </div>
+
+        <!-- password -->
+        <div class="input-box">
+          <span class="input-icon"><i class="fa-solid fa-unlock-keyhole"></i></span>
+          <input type="password" id="password" class="input-border" placeholder="비밀번호">
+        </div>
+        <div class="guide-box">
+          <div class="guide-text">(필수) 비밀번호를 입력하세요.</div>
+          <div class="guide-message"><i class="fa-solid fa-x icon2"></i>영문/숫자/특수문자 모두 포함 (8~20자)</div>
+          <div class="guide-message"><i class="fa-solid fa-x icon3"></i>3개 이상 연속되거나 동일한 문자/숫자 제외</div>
+          <div class="guide-message"><i class="fa-solid fa-x icon4"></i>아이디(이메일) 제외</div>
+          <div class="success-message-password green hide">사용할 수 있는 패스워드입니다.</div>
+          <div class="failure-message-password red hide">패스워드를 다시 생성해주세요.</div>
+        </div>
+        <!-- password retype -->
+        <div class="input-box">
+          <span class="input-icon"><i class="fa-solid fa-lock"></i></span>
+          <input type="password" id="password-retype" class="input-border" placeholder="비밀번호">
+        </div>
+        <div class="guide-box">
+          <div class="guide-text">(필수) 비밀번호를 한번 더 입력하세요.</div>
+          <div class="match-message green hide">비밀번호가 일치합니다.</div>
+          <div class="mismatch-message red hide">비밀번호가 일치하지 않습니다.</div>
+        </div>
+        <!-- name -->
+        <div class="input-box">
+          <span class="input-icon"><i class="fa-regular fa-user"></i></span>
+          <input type="email" id="name" class="input-border" placeholder="이름">
+        </div>
+        <div class="guide-box">
+          <div class="guide-text">이름을 정확히 입력하세요.</div>
+        </div>
+        <!-- phone -->
+        <div class="input-box">
+          <span class="input-icon"><i class="fa-solid fa-mobile-screen"></i></span>
+          <input type="tel" id="phone" class="input-border" placeholder="휴대폰 번호">
+        </div>
+        <div class="guide-box">
+          <div class="guide-text">휴대폰 번호를 정확하게 입력하세요.</div>
+        </div>
+        <!-- one line break -->
+        <div class="line-1"></div>
+        <div>서비스 약관에 동의해주세요.</div>
+        <div class="form-group">
+          <form>
+          <label><input type="checkbox" id="checkboxAgree">모두 동의합니다.</label>
+        </form>
+        </div>
+        <!-- button -->
+        <div class="registerButton">
+          <button class="newBtn" disabled>회원가입</button>
+        </div>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="script.js"></script>
+    <script src="validator.js"></script>
+  </body>
+</html>
