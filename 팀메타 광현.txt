@@ -1,0 +1,48 @@
+https://zep.us/play/8AaV58 링티연구소
+
+
+https://teamzep.notion.site/ZEP-Script-0e5caa40ad984ae5ab989974da40f041
+script 배포 가이드
+
+위 맵에서 고장난 식수펌프를 z키를 눌러서 모션을 계속하면 멀쩡한 식수펌프로 이미지가 바뀌는 구현을 계속 연구중이에욥
+
+추가로 z키 모션이 찌르기 손가락으로 되어있는데 이걸 다른 이미지로 (예를 들어 망치같은) 바꿔서 식수펌프를 고치는 모션? 같은거로 변환이 될지..
+
+
+
+let bulletAttackSprite = App.loadSpritesheet("bulletSprite.png",24, 24,{
+    left: [2],
+    right: [0],
+    up: [3],
+    down: [1],
+},8
+);
+
+
+App.onJoinPlayer.Add(function (p) {
+    p.attackSprite = bulletAttackSprite;
+    p.sendUpdated();
+})
+
+
+https://zep.us/play/8LBr6j 돌맹이 z공격시 다른곳에 새로운 이미지 생성
+
+
+App.onObjectAttacked.Add(function(sender, x, y){
+
+ let s = 'sender : ' + sender;  
+ let xx = 'x : ' + x;  
+ let yy = 'y : ' + y;  
+  App.sayToAll(s);
+
+
+    App.sayToAll(xx);
+
+    App.sayToAll(yy);
+    
+    Map.putTileEffect(x, y, TileEffectType.NONE);
+
+});
+
+
+오브잭트 x값 y값 좌표
